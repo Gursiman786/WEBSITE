@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:blanchedalmond;
+  color: chocolate;
+}
+
+header,footer
+{
+  background-color:black;
+  color: rgb(196, 237, 100);
+  text-align: center;
+  padding: 1rem;
+  color: tomato;
+}
+
+nav ul {
+  padding: 0;
+  justify-content: center;
+  gap: 15px;
+    display: flex;
+    list-style: none;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero img {
+  max-width: 100%;
+
+  height: 250px;
+  border-radius: 10px;
+  
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.featured-dishes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.featured-dishes img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.dish {
+  border: 10px solid chocolate;
+  padding: 10px;
+  text-align: center;
+  width: 300px; /* Adjust as needed */
+  border-radius: 10px;
+  text-decoration: solid;
+}
+
+.testimonials {
+  padding: 20px;
+  text-align: center;
+}
+
+blockquote {
+  background-color: #eee;
+  padding: 15px;
+  border-left: 5px solid #777777;
+
+}
+.introduction-container {
+  text-align: center;
+  padding: 20px;
+   font-size: 1.5rem;
+  color: chocolate;
+  text-decoration: underline;
+}
+.px {
+    font-size: 1.2rem;
+    color: chocolate;
+}
+.xy{
+    font-size: 1.5rem;
+    color: chocolate;
+    text-decoration: underline;
+}
+.sigma {
+  font-size: 2rem;
+  color: chocolate;
+  text-decoration: underline;
+}
+.gc {
+  font-size: 1.8rem;
+  color: chocolate;
+  text-decoration: underline;
+}
